@@ -75,3 +75,9 @@ body {
 	
 	z-index: -1;
 }
+
+.weather {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
