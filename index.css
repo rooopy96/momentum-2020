@@ -1,0 +1,77 @@
+body {
+	background-color: grey;
+	color: white;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.clock {
+	text-align: center;
+	font-size: 30px;
+}
+
+.clock h1 {
+	margin-bottom: 0px;
+}
+
+.form {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+.form input {
+	border: none;
+	outline: none;
+	border-bottom: 1px solid white;
+	background-color: transparent;
+	color: white;
+	width: 230px;
+}
+
+.form input::placeholder {
+	color: white;
+}
+
+.form,
+.greetings {
+	display: none;
+}
+.showing {
+	display: block;
+	text-align: center;
+}
+
+.greetings {
+	margin-top: 0px;
+	font-size: 20px;
+}
+
+.todos input {
+	border: none;
+	outline: none;
+	border-bottom: 1px solid white;
+	background-color: transparent;
+	color: white;
+	width: 230px;
+}
+
+.list button {
+	font-size: 1px;
+}
+
+.bgImg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
+	z-index: -1;
+}
